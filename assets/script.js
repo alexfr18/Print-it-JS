@@ -17,7 +17,6 @@ const slides = [
     tagLine: "Autocollants <span>avec découpe laser sur mesure</span>",
   },
 ];
-// console.log(slides);
 
 const picture = document.querySelectorAll(".stock");
 // console.log(picture);
@@ -32,6 +31,7 @@ const arrowRight = document.querySelector(".arrow_right");
 //console.log(arrowRight);
 
 let count = 0;
+// console.log(count);
 
 const bullet = document.querySelectorAll(".dot");
 // console.log(bullet);
@@ -73,4 +73,4 @@ arrowRight.addEventListener("click", next);
 console.log(arrowRight);
 
 arrowLeft.addEventListener("click", previous);
-console.log(arrowRight);
+console.log(arrowLeft);
